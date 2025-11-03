@@ -15,17 +15,3 @@ Users can view restaurant information, see an overlaid **Fastor logo** on images
 - ✅ **Responsive Design** — Works smoothly on both desktop and mobile.
 
 ---
-
-## 🧠 Tech Stack
-
-| Category | Technology |
-|-----------|-------------|
-| Frontend | React.js |
-| Routing | React Router DOM |
-| Styling | CSS3 |
-| Image Capture | html2canvas |
-| Sharing | Web Share API |
-| Logo Overlay | Custom CSS (absolute positioning) |
-| Local API | JSON Server |
-
----
