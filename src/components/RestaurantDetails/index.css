@@ -1,0 +1,91 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.back-button {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.image-container {
+  position: relative;
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.restaurant-image {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  height: 70%;
+}
+
+
+.restaurant-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+
+.restaurant-address,
+.restaurant-distance,
+.restaurant-rating {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #666;
+}
+.restaurant-rating {
+    background-color: #000000;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.share-button {
+  margin-top: 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 22px;
+}
+
+.fastor-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px; 
+  opacity: 0.8; 
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}

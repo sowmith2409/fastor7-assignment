@@ -1,0 +1,36 @@
+.otp-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: beige;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: black;
+}
+
+.otp-heading {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.input {
+    height: 30px;
+    width: 70%;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    height: 37px;
+}

@@ -1,0 +1,164 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Brew & Bean Cafe",
+      "distance": "0.5 km",
+      "rating": 4.6,
+      "address": "12 Park Street, Mumbai",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "name": "The Pasta Place",
+      "distance": "1.2 km",
+      "rating": 4.3,
+      "address": "44 Olive Avenue, Pune",
+      "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Tandoori Nights",
+      "distance": "2.0 km",
+      "rating": 4.8,
+      "address": "22 Sunset Boulevard, Delhi",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Sushi Central",
+      "distance": "1.8 km",
+      "rating": 4.5,
+      "address": "18 Pearl Lane, Bengaluru",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Burger Haven",
+      "distance": "0.9 km",
+      "rating": 4.2,
+      "address": "9 Riverwalk, Hyderabad",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Urban Tadka",
+      "distance": "2.5 km",
+      "rating": 4.6,
+      "address": "23 Lotus Street, Ahmedabad",
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 7,
+      "name": "The Breakfast Club",
+      "distance": "0.7 km",
+      "rating": 4.9,
+      "address": "5 Sunrise Avenue, Goa",
+      "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 8,
+      "name": "Noodle Express",
+      "distance": "2.8 km",
+      "rating": 4.5,
+      "address": "33 Skyline Road, Chennai",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 9,
+      "name": "Grain & Grape",
+      "distance": "1.1 km",
+      "rating": 4.6,
+      "address": "41 Vineyard Lane, Nashik",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 10,
+      "name": "Ocean View Dine",
+      "distance": "3.2 km",
+      "rating": 4.7,
+      "address": "27 Marine Drive, Mumbai",
+      "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 11,
+      "name": "The Veggie Bowl",
+      "distance": "0.6 km",
+      "rating": 4.4,
+      "address": "55 Blossom Street, Pune",
+      "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 12,
+      "name": "Royal Feast",
+      "distance": "2.4 km",
+      "rating": 4.8,
+      "address": "66 Royal Square, Delhi",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 13,
+      "name": "Dessert Lane",
+      "distance": "0.9 km",
+      "rating": 4.9,
+      "address": "12 Cream Avenue, Mumbai",
+      "image": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 14,
+      "name": "The BBQ Spot",
+      "distance": "3.3 km",
+      "rating": 4.4,
+      "address": "25 Grill Road, Delhi",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 15,
+      "name": "Caffeine Corner",
+      "distance": "1.6 km",
+      "rating": 4.2,
+      "address": "3 Aroma Street, Pune",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 16,
+      "name": "The Greek Table",
+      "distance": "3.1 km",
+      "rating": 4.5,
+      "address": "8 Parthenon Street, Chennai",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 17,
+      "name": "Coconut Bay Cafe",
+      "distance": "1.0 km",
+      "rating": 4.2,
+      "address": "55 Beachline Road, Goa",
+      "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 18,
+      "name": "Chopsticks Corner",
+      "distance": "2.2 km",
+      "rating": 4.6,
+      "address": "27 Dragon Street, Hyderabad",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 19,
+      "name": "The Royal Plate",
+      "distance": "2.5 km",
+      "rating": 4.8,
+      "address": "88 Heritage Street, Jaipur",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 20,
+      "name": "Café Latte Love",
+      "distance": "0.5 km",
+      "rating": 4.3,
+      "address": "9 Rosewood Lane, Mumbai",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}

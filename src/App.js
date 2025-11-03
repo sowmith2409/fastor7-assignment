@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import LoginPage from "./components/LoginPage";
+import OtpPage from "./components/OtpPage";
+import RestaurantList from "./components/RestaurantList";
+import RestaurantDetails from "./components/RestaurantDetails";
 
 function App() {
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/otp" element={<OtpPage />} />
+      <Route
+        path="/restaurants"
+        element={isLoggedIn ? <RestaurantList /> : <Navigate to="/" />}
+      />
+      <Route
+        path="/restaurant/:id"
+        element={isLoggedIn ? <RestaurantDetails /> : <Navigate to="/" />}
+      />
+    </Routes>
   );
 }
 
